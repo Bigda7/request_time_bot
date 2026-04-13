@@ -38,7 +38,7 @@ project/
 │
 ├── tg_bot.py
 ├── requirements.txt
-├── .env
+├── .env.example      # Template for environment variables
 ├── .gitignore
 └── README.md
 ```
@@ -49,8 +49,8 @@ project/
 
 ### 1. Clone the repository
 ```
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/Bigda7/request_time_bot.git
+cd request_time_bot
 ```
 
 ### 2. Create virtual environment

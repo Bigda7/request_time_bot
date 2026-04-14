@@ -45,7 +45,7 @@ def is_admin(message: types.Message) -> bool:
     return message.from_user.id == YOUR_CHAT_ID
 
 
-# --- ⚡ ASYNCHRONOUS MONITORING LOGIC ---
+# --- ASYNCHRONOUS MONITORING LOGIC ---
 
 
 async def check_url(session: aiohttp.ClientSession, url: str):
